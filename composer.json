@@ -1,13 +1,13 @@
 {
     "name": "dobryprogramator/doctrine-safe-types",
     "description": "Doctrine types for thecodingmachine/safe package",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "license": "MIT",
     "type": "library",
     "require": {
         "php": ">=7.4",
         "doctrine/dbal": "^3.0|^4.0",
-        "thecodingmachine/safe": "^1.1|^2.0"
+        "thecodingmachine/safe": "dev-master"
     },
     "require-dev": {
         "phpstan/extension-installer": "^1.0",
