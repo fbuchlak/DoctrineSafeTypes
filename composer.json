@@ -11,9 +11,9 @@
     },
     "require-dev": {
         "phpstan/extension-installer": "^1.0",
-        "phpstan/phpstan": "^0.12.18",
-        "symplify/easy-coding-standard": "^7.2",
-        "thecodingmachine/phpstan-safe-rule": "^1.0"
+        "phpstan/phpstan": "^2.0",
+        "symplify/easy-coding-standard": "^9.2",
+        "thecodingmachine/phpstan-safe-rule": "^1.3"
     },
     "authors": [
         {
@@ -27,7 +27,10 @@
         }
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": false
+        }
     },
     "scripts": {
         "phpstan": "vendor/bin/phpstan analyse -c phpstan.neon",
